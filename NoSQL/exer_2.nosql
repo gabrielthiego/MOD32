@@ -1,0 +1,11 @@
+// 1. Contagem: livros com status != PUBLISH e pageCount < 300
+db.books.countDocuments({ status: { $ne: "PUBLISH" }, pageCount: { $lt: 300 } });
+
+// 2. Contagem: título com MongoDB e SQL Server
+db.books.countDocuments({ title: { $all: [/MongoDB/i, /SQL Server/i] } });
+
+// 3. Contagem: ISBN começa com 18
+db.books.countDocuments({ isbn: /^18/ });
+
+// 4. Contagem: descrição com JAVA ou Mobile
+db.books.countDocuments({ longDescription: /java|mobile/i });
