@@ -81,7 +81,7 @@ use booksdb
 ## Contato
 
 Gabriel Thiego Trindade Sperduto - Rio de Janeiro, Brasil
-
+email:gabrielthiego@gmail.com
+linkerdin:www.linkedin.com/in/gabrielthiego
 ---
 
-Qualquer dúvida, só chamar aqui!
